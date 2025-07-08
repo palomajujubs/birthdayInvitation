@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Laries Script';
+  src: url('../fonts/laries-font/laries.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #fce7c0, #f9791d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  max-width: 600px;
+  width: 90%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.card-top {
+  padding:100px 60px 100px;
+  background-image: url('../img/Gemini_Generated_Image_45nf6b45nf6b45nf.png'); /* substitua ou mantenha remoto */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.card-top h1 {
+  font-size: 3.5rem;
+  margin: 0;
+  line-height: 1.1;
+  font-family: 'Laries Script', serif;
+}
+
+.card-top h2 {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.card-bottom {
+  background-color: #f9791d;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  gap: 8px;
+}
+
+.card-bottom button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card-bottom button:hover {
+  background-color: white;
+  color: #f9791d;
+}
+
+.info-linha {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+}
+
+.frase {
+  margin-top: 10px;
+  width: 100%;
+  font-size: 1.3rem;
+}
