@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 # Lê os dados do CSV
-dados = pd.read_csv("parte_3_da_lista.csv", encoding="latin1", sep=";")
+dados = pd.read_csv("parte_4_da_lista.csv", encoding="latin1", sep=";")
 dados.columns = [col.strip().lower() for col in dados.columns]
 
 # Lê o HTML base
