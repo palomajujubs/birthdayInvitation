@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Convite - De volta aos anos 70</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <div class="card">
+    <div class="card-top">
+      <h1>De volta<br />aos anos<br />70</h1>
+      <h2>Deilton gomes</h2>
+      <h2> 21/07/1975</h2>
+    </div>
+    <div class="card-bottom">
+      <div class="info-linha">
+        Nome: Adonai carvalho</span>
+        <span class="guest-rg"> Documento: nan</span>
+      </div>
+      <div class="frase">
+        🎉 Prepare-se para uma viagem no tempo! 🪩🎉
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script>
+    window.onload = function() {
+      confetti({
+        particleCount: 150,
+        spread: 70,
+        origin: { y: 0.6 }
+      });
+    };
+  </script>
+</body>
+</html>
