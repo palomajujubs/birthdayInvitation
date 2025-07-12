@@ -12,6 +12,7 @@ with open("index.html", "r", encoding="utf-8") as f:
 # Cria a pasta de saída, se não existir
 os.makedirs("convidados", exist_ok=True)
 
+
 # Gera um HTML por convidado
 for _, row in dados.iterrows():
     nome = row["nome"]
